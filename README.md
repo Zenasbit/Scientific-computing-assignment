@@ -4,7 +4,7 @@
 ## Introduction
 This repository contains my individual Scientific Computing assignment using Python. It demonstrates numerical methods for solving mathematical problems and their real-world applications.
 
-# TASK 6: SOLUTION OF SYSTEMS OF LINEAR EQUATIONS
+# Task 6: Solution of system of linear equation 
 
 ## 1. Introduction
 This task demonstrates how Python and NumPy can be used to solve systems of linear equations. The `numpy.linalg.solve()` function is used to calculate unknown values.
