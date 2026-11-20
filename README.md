@@ -57,22 +57,22 @@ A hospital needs to allocate two types of equipment according to their electrici
 
 The program calculates that 7 Type B equipment units and no Type A units satisfy the given requirements.
 
-## Task 7: Gaussian Elimination and LU Decomposition
+# Task 7: Gaussian Elimination and LU Decomposition
 
-### Mathematical Concept
+## Mathematical Concept
 Gaussian elimination solves systems of linear equations by eliminating variables. LU decomposition factors a matrix into lower and upper triangular matrices.
 
-### Input Values
+## Input Values
 - Coefficient matrix (A)
 - Measurement vectors (b)
 
-### Mathematical Operation
+## Mathematical Operation
 The program uses LU decomposition to solve systems of linear equations.
 
-### Real-World Application
+## Real-World Application
 This method can be applied in engineering simulations where the same system of equations is solved using different measurements.
 
-### Output and Interpretation
+## Output and Interpretation
 The program solved three different measurement sets
 using LU decomposition.
 
@@ -83,14 +83,14 @@ because their input values were different.
 The residual values were very close to zero,
 showing that the solutions were accurate.
 
-### Parameter Modification
+## Parameter Modification
 The first measurement value was changed from 15 to 18.
 The original solution was [5, 5, 5].
 After the change, the solution became approximately
 [5.80, 5.22, 5.07].
 This shows that changing input values affects the final solution.
 
-### Modified Real-World Problem
+## Modified Real-World Problem
 A small water supply system has three connected pipes.
 The coefficient matrix represents the relationship
 between water flow in the pipes.
@@ -101,24 +101,24 @@ the flow in each pipe.
 The program uses LU decomposition to solve the
 system and find the unknown flow values. 
 
-### Task 8: Iterative Methods for Linear Systems
+# Task 8: Iterative Methods for Linear Systems
 
-### Mathematical Concept
+## Mathematical Concept
 Jacobi and Gauss-Seidel are iterative methods that solve systems of linear equations by improving initial estimates repeatedly until they converge.
 
-### Input Values
+## Input Values
 - Coefficient matrix (A)
 - Boundary influence vector (b)
 - Initial estimate
 - Tolerance
 
-### Mathematical Operation
+## Mathematical Operation
 The program uses Jacobi and Gauss-Seidel methods to estimate temperatures at different points.
 
-### Real-World Application
+## Real-World Application
 These methods can be used in heat-transfer simulations to estimate temperatures in different locations.
 
-### Output and Interpretation
+## Output and Interpretation
 The program calculated temperatures at five points.
 Both Jacobi and Gauss-Seidel produced almost the same
 results as the direct solution.
@@ -126,7 +126,7 @@ results as the direct solution.
 The graph shows how the two methods approach the
 solution as the number of iterations increases.
 
-### Parameter Modification
+## Parameter Modification
 The left boundary temperature was changed from 100°C to 120°C.
 The temperatures at the five points increased.
 Both Jacobi and Gauss-Seidel gave almost the same results
@@ -134,7 +134,7 @@ as the direct solution.
 This shows that changing boundary temperatures affects
 the temperature distribution.
 
-### Modified Real-World Problem
+## Modified Real-World Problem
 A greenhouse has two boundary temperatures.
 One side is maintained at 30°C while the other side
 is maintained at 20°C.
@@ -146,6 +146,6 @@ at each point.
 The results show that temperature gradually decreases
 from the warmer side towards the cooler side.
 
-## Conclusion
+# Conclusion
 
 This assignment helped demonstrate how Python can be used to solve different mathematical problems. Task 6 covered systems of linear equations, Task 7 covered Gaussian elimination and LU decomposition, and Task 8 covered iterative methods. The programs showed how changing input values affects results and how numerical methods can be applied to real-world problems.
