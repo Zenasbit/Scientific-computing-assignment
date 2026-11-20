@@ -57,10 +57,6 @@ A hospital needs to allocate two types of equipment according to their electrici
 
 The program calculates that 7 Type B equipment units and no Type A units satisfy the given requirements.
 
-## 5. Conclusion
-
-Python and NumPy make it easier to solve systems of linear equations. Changing input values affects the results, and the hospital example demonstrates how this method can be applied to real-world resource allocation.
-
 ## Task 7: Gaussian Elimination and LU Decomposition
 
 ### Mathematical Concept
@@ -151,4 +147,5 @@ The results show that temperature gradually decreases
 from the warmer side towards the cooler side.
 
 ## Conclusion
-This assignment demonstrates how numerical methods and Python can be used to solve scientific and real-world problems.
+
+This assignment helped demonstrate how Python can be used to solve different mathematical problems. Task 6 covered systems of linear equations, Task 7 covered Gaussian elimination and LU decomposition, and Task 8 covered iterative methods. The programs showed how changing input values affects results and how numerical methods can be applied to real-world problems.
