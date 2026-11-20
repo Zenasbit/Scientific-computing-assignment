@@ -4,6 +4,63 @@
 ## Introduction
 This repository contains my individual Scientific Computing assignment using Python. It demonstrates numerical methods for solving mathematical problems and their real-world applications.
 
+# TASK 6: SOLUTION OF SYSTEMS OF LINEAR EQUATIONS
+
+## 1. Introduction
+This task demonstrates how Python and NumPy can be used to solve systems of linear equations. The `numpy.linalg.solve()` function is used to calculate unknown values.
+
+## 2. Original Program
+
+The original program calculates the number of Type A and Type B servers using CPU and memory requirements.
+
+**Input values:**
+- CPU units: 20
+- Memory: 72 GB
+- Type A: 4 CPU units and 8 GB memory
+- Type B: 2 CPU units and 12 GB memory
+
+**Output:**
+- Type A servers: 3
+- Type B servers: 4
+
+**Interpretation:**
+
+The program shows that 3 Type A servers and 4 Type B servers satisfy the given CPU and memory requirements.
+
+## 3. Modified Program
+
+The CPU requirement was changed from 20 to 24 units, while memory remained at 72 GB.
+
+**Output:**
+- Type A servers: 4.5
+- Type B servers: 3
+
+**Interpretation:**
+
+Increasing the CPU requirement changed the results. Type A increased from 3 to 4.5, while Type B decreased from 4 to 3.
+
+## 4. Real-World Application: Hospital Equipment Allocation
+
+A hospital needs to allocate two types of equipment according to their electricity and storage requirements.
+
+**Input values:**
+- Total electricity requirement: 21 units
+- Total storage requirement: 35 GB
+- Type A equipment: 5 power units and 10 GB storage
+- Type B equipment: 3 power units and 5 GB storage
+
+**Output:**
+- Type A equipment: 0
+- Type B equipment: 7
+
+**Interpretation:**
+
+The program calculates that 7 Type B equipment units and no Type A units satisfy the given requirements.
+
+## 5. Conclusion
+
+Python and NumPy make it easier to solve systems of linear equations. Changing input values affects the results, and the hospital example demonstrates how this method can be applied to real-world resource allocation.
+
 ## Task 7: Gaussian Elimination and LU Decomposition
 
 ### Mathematical Concept
@@ -48,7 +105,7 @@ the flow in each pipe.
 The program uses LU decomposition to solve the
 system and find the unknown flow values. 
 
-## Task 8: Iterative Methods for Linear Systems
+### Task 8: Iterative Methods for Linear Systems
 
 ### Mathematical Concept
 Jacobi and Gauss-Seidel are iterative methods that solve systems of linear equations by improving initial estimates repeatedly until they converge.
