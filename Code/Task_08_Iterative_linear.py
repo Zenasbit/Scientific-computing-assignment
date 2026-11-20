@@ -12,7 +12,7 @@ A = np.array([
 ])
 
 # Boundary temperatures
-b = np.array([100., 0., 0., 0., 20.])
+b = np.array([30., 0., 0., 0., 20.])
 
 
 def jacobi(A, b, tol=1e-8, max_iter=500):

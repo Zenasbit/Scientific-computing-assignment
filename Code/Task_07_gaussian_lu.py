@@ -10,7 +10,7 @@ A = np.array([
 
 # Measurement vectors
 measurement_sets = [
-    np.array([15.0, 10.0, 10.0]),
+    np.array([18.0, 10.0, 10.0]),
     np.array([16.0, 11.0, 9.0]),
     np.array([14.0, 12.0, 11.0])
 ]
